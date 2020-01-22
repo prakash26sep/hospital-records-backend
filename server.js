@@ -15,7 +15,7 @@ var PORTNUM= process.env.PORT || 5000;
 
 
 mongoose.Promise= global.Promise;
-mongoose.connect('mongodb://localhost:27017/persondatamern', {useNewUrlParser: true, server: { socketOptions: {
+mongoose.connect('mongodb+srv://prakash26sep:tatasky1@ourcommmunicatordata-yoagc.mongodb.net/test?retryWrites=true&w=majority', {useNewUrlParser: true, server: { socketOptions: {
     socketTimeoutMS: 0,
     connectTimeoutMS: 0
   }
